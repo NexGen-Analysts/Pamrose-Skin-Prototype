@@ -8,7 +8,7 @@ return (
         <p className='text-gray-500 mt-3'>Be the first to know about new products, exclusive deals, and skincare tips directly from Naledi. Join our community by saving our number and sending "Hello"!</p>
         <div className='mt-6'>
             <a 
-                href="https://wa.me/27692285873" 
+                href="https://wa.me/27682285873" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className='bg-[#25D366] text-white text-sm font-semibold px-10 py-4 rounded-full transition-transform hover:scale-105'
