@@ -1,11 +1,55 @@
-[
+// Import all product images so Vite can process their paths
+import silkenSavannahThumb from '../assets/products/Silken_Savannah_thumbnail.jpg';
+import silkenSavannahDetail from '../assets/products/Silken_Savannah_detailed.jpg';
+import unicornFruitKitThumb from '../assets/products/Unicorn_Fruit_Shave_Kit_thumbnail.jpg';
+import unicornFruitKitDetail from '../assets/products/Unicorn_Fruit_Shave_Kit_detailed.jpg';
+import cocoCloudKitThumb from '../assets/products/coco_cloud_shave_kit_thumbnail.jpg';
+import cocoCloudKitDetail from '../assets/products/coco_cloud_shave_kit_detailed.jpg';
+import bikiniBlissKitThumb from '../assets/products/Bikini_Bliss_kit_thumbnail.jpg';
+import bikiniBlissKitDetail from '../assets/products/Bikini_Bliss_kit_detailed.jpg';
+import glowyGlutesThumb from '../assets/products/Glowy_Glutes_thumbnail.jpg';
+import glowyGlutesDetail from '../assets/products/Glowy_Glutes_detailed.jpg';
+import goldenGlowTrioThumb from '../assets/products/Golden_Glow_Body_Oil_Trio_thumbnail.jpg';
+import goldenGlowTrioDetail from '../assets/products/Golden_Glow_Body_Oil_Trio_detailed.jpg';
+import gleamRetreatThumb from '../assets/products/gleam_retreat_after_shave_moisturiser_thumbnail.jpg';
+import gleamRetreatDetail from '../assets/products/gleam_retreat_after_shave_moisturiser_detailed.jpg';
+import soothingSanctuaryThumb from '../assets/products/Soothing_Sanctuary_After_shave_oil.jpg';
+import soothingSanctuaryDetail from '../assets/products/Soothing_Sanctuary_After_shave_oil_detailed.jpg';
+import silkEdgeRazorThumb from '../assets/products/silk-edge_razor.jpg';
+import unicornScrubThumb from '../assets/products/unicorn_fruit_pre-shave_scrub_thumbnail.jpg';
+import unicornScrubDetail from '../assets/products/unicorn_fruit_pre-shave_scrub_detailed.jpg';
+import unicornSerumThumb from '../assets/products/unicorn_fruit_after_shave_serum_thumbnail.jpg';
+import unicornSerumDetail from '../assets/products/unicorn_fruit_after_shave_serum_detailed.jpg';
+import unicornButterThumb from '../assets/products/unicorn_fruit_luxury_shave_butter_thumbnail.jpg';
+import unicornButterDetail from '../assets/products/unicorn_fruit_luxury_shave_butter_detailed.jpg';
+import cocoMoisturiserThumb from '../assets/products/coco_cloud_after_shave_moisturiser_thumbnail.jpg';
+import cocoMoisturiserDetail from '../assets/products/coco_cloud_after_shave_moisturiser_detailed.jpg';
+import cocoSerumThumb from '../assets/products/coco_cloud_after_shave_serum_thumbnail.jpg';
+import cocoSerumDetail from '../assets/products/coco_cloud_after_shave_serum_detailed.jpg';
+import cocoButterThumb from '../assets/products/coco_cloud_luxury_shave_butter_thumbnail.jpg';
+import cocoButterDetail from '../assets/products/coco_cloud_luxury_shave_butter_detailed.jpg';
+import softServeOilThumb from '../assets/products/soft_serve_after_shave_oil_thumbnail.jpg';
+import softServeOilDetail from '../assets/products/soft_serve_after_shave_oil_detailed.jpg';
+import bikiniSerumThumb from '../assets/products/bikini_bliss_ingrown_serum_thumbnail.jpg';
+import bikiniSerumDetail from '../assets/products/bikini_bliss_ingrown_serum_detailed.jpg';
+import bikiniOilThumb from '../assets/products/bikini_bliss_pubic_hair_&_skin_oil_thumbnail.jpg';
+import bikiniOilDetail from '../assets/products/bikini_bliss_pubic_hair_&_skin_oil_detailed.jpg';
+import birthdaySexOilThumb from '../assets/products/birthday_sex_luxury_body_oil_thumbnail.jpg';
+import birthdaySexOilDetail from '../assets/products/birthday_sex_luxury_body_oil_detailed.jpg';
+import goldenGlazeOilThumb from '../assets/products/golden_glaze_luxury_body_oil_thumbnail.jpg';
+import goldenGlazeOilDetail from '../assets/products/golden_glaze_luxury_body_oil_detailed.jpg';
+import vanillaBabyOilThumb from '../assets/products/vanilla_baby_luxury_body_oil_thumbnail.jpg';
+import vanillaBabyOilDetail from '../assets/products/vanilla_baby_luxury_body_oil_detailed.jpg';
+
+
+const products = [
   {
     "_id": "ps001",
     "name": "Silken Savannah Kit",
     "description": "Indulge in a 3-step routine for a vanilla-scented, shimmering glow. This kit includes our Vanilla Baby Shimmer Body Butter, Luxury Body Oil, and Eau de Parfum.",
     "price": 499,
-    "thumbnail": "/images/products/Silken_Savannah_thumbnail.jpg",
-    "detail_image": "/images/products/Silken_Savannah_detailed.jpg",
+    "thumbnail": silkenSavannahThumb,
+    "detail_image": silkenSavannahDetail,
     "category": "Kits",
     "skin_concern": ["Dry Skin", "Hydration", "Glow"],
     "key_ingredients": "Bakuchiol, Vitamin B3, Vanilla, Niacinamide, Antioxidant Boost",
@@ -17,8 +61,8 @@
     "name": "Unicorn Fruit Shave Kit",
     "description": "Experience a taste of summer with our complete shave kit. Includes the Glazed Donut Luxury Shave Butter and the Smooth Legend After Shave Serum for an unbelievably smooth finish.",
     "price": 399,
-    "thumbnail": "/images/products/Unicorn_Fruit_Shave_Kit_thumbnail.jpg",
-    "detail_image": "/images/products/Unicorn_Fruit_Shave_Kit_detailed.jpg",
+    "thumbnail": unicornFruitKitThumb,
+    "detail_image": unicornFruitKitDetail,
     "category": "Kits",
     "skin_concern": ["Shave Bumps", "Irritation", "Ingrown Hairs"],
     "key_ingredients": "Hyaluronic Acid, Vitamin E, Passion Fruit, Niacinamide, Squalane, Lactic Acid, Glycolic Acid, Plum Oil",
@@ -30,8 +74,8 @@
     "name": "Coco Cloud Shave Kit",
     "description": "The ultimate shaving routine for soft, hydrated skin. This world-famous kit includes our After Shave Moisturizer, After Shave Serum, Luxury Shave Butter, and the Silk-Edge Razor.",
     "price": 599,
-    "thumbnail": "/images/products/coco_cloud_shave_kit_thumbnail.jpg",
-    "detail_image": "/images/products/coco_cloud_shave_kit_detailed.jpg",
+    "thumbnail": cocoCloudKitThumb,
+    "detail_image": cocoCloudKitDetail,
     "category": "Kits",
     "skin_concern": ["Hydration", "Irritation", "Shave Bumps"],
     "key_ingredients": "Vanilla, Coconut Milk, Argan Oil, White Tea, Vitamin E Boost",
@@ -43,8 +87,8 @@
     "name": "Bikini Bliss Kit",
     "description": "An earthy, invigorating kit featuring our Cooka Oil and Cooka Concentrate Ingrown Serum to hydrate, clear pores, and treat ingrown hairs on your bikini line.",
     "price": 299,
-    "thumbnail": "/images/products/Bikini_Bliss_kit_thumbnail.jpg",
-    "detail_image": "/images/products/Bikini_Bliss_kit_detailed.jpg",
+    "thumbnail": bikiniBlissKitThumb,
+    "detail_image": bikiniBlissKitDetail,
     "category": "Kits",
     "skin_concern": ["Ingrown Hairs", "Irritation", "Hydration"],
     "key_ingredients": "Lavender, Tea Tree, Jojoba, Primrose, Antimicrobial Boost",
@@ -56,8 +100,8 @@
     "name": "Glowy Glutes Kit",
     "description": "The ultimate duo for a tighter, glowing butt. This kit includes the Buns of Glowry Tightening Body Serum and Smoothing Butt Butter.",
     "price": 349,
-    "thumbnail": "/images/products/Glowy_Glutes_thumbnail.jpg",
-    "detail_image": "/images/products/Glowy_Glutes_detailed.jpg",
+    "thumbnail": glowyGlutesThumb,
+    "detail_image": glowyGlutesDetail,
     "category": "Kits",
     "skin_concern": ["Glow", "Hydration", "Firming"],
     "key_ingredients": "Watermelon, Vitamin E, Apricot, Orange Flower, Wheat Protein Boost",
@@ -69,8 +113,8 @@
     "name": "Golden Glow Body Oil Trio",
     "description": "Achieve brighter, tighter, shimmering skin with our trio of luxury body oils: Vanilla Baby, Birthday Sex, and Golden Glaze.",
     "price": 550,
-    "thumbnail": "/images/products/Golden_Glow_Body_Oil_Trio_thumbnail.jpg",
-    "detail_image": "/images/products/Golden_Glow_Body_Oil_Trio_detailed.jpg",
+    "thumbnail": goldenGlowTrioThumb,
+    "detail_image": goldenGlowTrioDetail,
     "category": "Oils",
     "skin_concern": ["Glow", "Hydration", "Firming"],
     "key_ingredients": "Niacinamide, Peptides, Hyaluronic Acid, Vitamin C, Ceramides, Argan Oil, Bakuchiol, Saffron",
@@ -82,8 +126,8 @@
     "name": "Gleam Retreat After Shave Moisturiser",
     "description": "Our 'Glazed Donut' After Shave Glow Cream provides a hydrating, healing, and smoothing finish post-shave.",
     "price": 180,
-    "thumbnail": "/images/products/gleam_retreat_after_shave_moisturiser_thumbnail.jpg",
-    "detail_image": "/images/products/gleam_retreat_after_shave_moisturiser_detailed.jpg",
+    "thumbnail": gleamRetreatThumb,
+    "detail_image": gleamRetreatDetail,
     "category": "Moisturizers",
     "skin_concern": ["Hydration", "Irritation", "Glow"],
     "key_ingredients": "Niacinamide, Vanilla, Vitamin E, Passion Fruit, Hyaluronic Acid Boost",
@@ -95,8 +139,8 @@
     "name": "Soothing Sanctuary After Shave Oil",
     "description": "Our 'Glass Skin' after-shave oil with clean ingredients and an irresistible scent. Unclogs pores, tightens, brightens, and hydrates.",
     "price": 150,
-    "thumbnail": "/images/products/Soothing_Sanctuary_After_shave_oil.jpg",
-    "detail_image": "/images/products/Soothing_Sanctuary_After_shave_oil_detailed.jpg",
+    "thumbnail": soothingSanctuaryThumb,
+    "detail_image": soothingSanctuaryDetail,
     "category": "Oils",
     "skin_concern": ["Irritation", "Dark Spots", "Glow"],
     "key_ingredients": "Bakuchiol, Vitamin C, Jojoba Oil, Blueberry, Niacinamide Boost",
@@ -108,8 +152,8 @@
     "name": "Silk-Edge Razor Kit",
     "description": "The Life Shaver Starter Razor Kit. Includes one razor handle and two 5-blade cartridges for an exceptionally close and comfortable shave.",
     "price": 150,
-    "thumbnail": "/images/products/silk-edge_razor.jpg",
-    "detail_image": "/images/products/silk-edge_razor.jpg",
+    "thumbnail": silkEdgeRazorThumb,
+    "detail_image": silkEdgeRazorThumb,
     "category": "Tools",
     "skin_concern": ["Shave Bumps"],
     "key_ingredients": "N/A",
@@ -121,8 +165,8 @@
     "name": "Unicorn Fruit Pre-Shave Scrub",
     "description": "A sugar-based pre-shave scrub with a luxe, fluffy texture that leaves skin smooth and glowing.",
     "price": 150,
-    "thumbnail": "/images/products/unicorn_fruit_pre-shave_scrub_thumbnail.jpg",
-    "detail_image": "/images/products/unicorn_fruit_pre-shave_scrub_detailed.jpg",
+    "thumbnail": unicornScrubThumb,
+    "detail_image": unicornScrubDetail,
     "category": "Scrubs",
     "skin_concern": ["Exfoliation", "Shave Bumps"],
     "key_ingredients": "Coconut, Grape, Passion Fruit, Lavender, Vitamin E Boost",
@@ -134,8 +178,8 @@
     "name": "Unicorn Fruit After Shave Serum",
     "description": "An exfoliating after-shave serum for smooth, glowing skin. Locks in moisture, unclogs pores, and fights ingrowns.",
     "price": 160,
-    "thumbnail": "/images/products/unicorn_fruit_after_shave_serum_thumbnail.jpg",
-    "detail_image": "/images/products/unicorn_fruit_after_shave_serum_detailed.jpg",
+    "thumbnail": unicornSerumThumb,
+    "detail_image": unicornSerumDetail,
     "category": "Serums",
     "skin_concern": ["Ingrown Hairs", "Hydration", "Glow"],
     "key_ingredients": "Squalane, Lactic Acid, Glycolic Acid, Plum Oil, Vitamin E Boost",
@@ -147,8 +191,8 @@
     "name": "Unicorn Fruit Luxury Shave Butter",
     "description": "A hydrating, softening, and soothing luxury shave butter proven to combat razor burn, redness, and ingrowns.",
     "price": 170,
-    "thumbnail": "/images/products/unicorn_fruit_luxury_shave_butter_thumbnail.jpg",
-    "detail_image": "/images/products/unicorn_fruit_luxury_shave_butter_detailed.jpg",
+    "thumbnail": unicornButterThumb,
+    "detail_image": unicornButterDetail,
     "category": "Shave Creams",
     "skin_concern": ["Irritation", "Shave Bumps", "Hydration"],
     "key_ingredients": "Hyaluronic Acid, Vitamin E, Passion Fruit, Niacinamide, Vanilla Boost",
@@ -160,8 +204,8 @@
     "name": "Coco Cloud After Shave Moisturiser",
     "description": "A hydrating, healing, and smoothing after-shave moisturizer with a dreamy, cloud-like texture.",
     "price": 180,
-    "thumbnail": "/images/products/coco_cloud_after_shave_moisturiser_thumbnail.jpg",
-    "detail_image": "/images/products/coco_cloud_after_shave_moisturiser_detailed.jpg",
+    "thumbnail": cocoMoisturiserThumb,
+    "detail_image": cocoMoisturiserDetail,
     "category": "Moisturizers",
     "skin_concern": ["Hydration", "Irritation"],
     "key_ingredients": "Vanilla, Coconut Milk, Argan Oil, White Tea, Vitamin E Boost",
@@ -173,8 +217,8 @@
     "name": "Coco Cloud After Shave Serum",
     "description": "A hydrating, healing, and ingrown-treating after-shave serum.",
     "price": 160,
-    "thumbnail": "/images/products/coco_cloud_after_shave_serum_thumbnail.jpg",
-    "detail_image": "/images/products/coco_cloud_after_shave_serum_detailed.jpg",
+    "thumbnail": cocoSerumThumb,
+    "detail_image": cocoSerumDetail,
     "category": "Serums",
     "skin_concern": ["Ingrown Hairs", "Hydration", "Irritation"],
     "key_ingredients": "Vanilla, Coconut Milk, Argan Oil, White Tea, Vitamin E Boost",
@@ -186,8 +230,8 @@
     "name": "Coco Cloud Luxury Shave Butter",
     "description": "Clinically proven to combat razor burn, ingrowns, and dryness with a blend of soothing coconut and Vitamin E.",
     "price": 170,
-    "thumbnail": "/images/products/coco_cloud_luxury_shave_butter_thumbnail.jpg",
-    "detail_image": "/images/products/coco_cloud_luxury_shave_butter_detailed.jpg",
+    "thumbnail": cocoButterThumb,
+    "detail_image": cocoButterDetail,
     "category": "Shave Creams",
     "skin_concern": ["Irritation", "Shave Bumps", "Hydration"],
     "key_ingredients": "Vanilla, Coconut Milk, Argan Oil, White Tea, Vitamin E Boost",
@@ -199,8 +243,8 @@
     "name": "Soft Serve After Shave Oil",
     "description": "A hydrating, soothing, and healing after-shave oil with a delicious scent of vanilla and strawberry.",
     "price": 150,
-    "thumbnail": "/images/products/soft_serve_after_shave_oil_thumbnail.jpg",
-    "detail_image": "/images/products/soft_serve_after_shave_oil_detailed.jpg",
+    "thumbnail": softServeOilThumb,
+    "detail_image": softServeOilDetail,
     "category": "Oils",
     "skin_concern": ["Hydration", "Irritation"],
     "key_ingredients": "Peptides, Hyaluronic Acid, Strawberry, Jojoba Oil, Lavender, Vanilla, Vitamin F",
@@ -212,8 +256,8 @@
     "name": "Bikini Bliss Ingrown Serum",
     "description": "A concentrated serum to target and treat ingrown hairs. Soothes redness and irritation, heals painful bumps, and fades hyperpigmentation.",
     "price": 140,
-    "thumbnail": "/images/products/bikini_bliss_ingrown_serum_thumbnail.jpg",
-    "detail_image": "/images/products/bikini_bliss_ingrown_serum_detailed.jpg",
+    "thumbnail": bikiniSerumThumb,
+    "detail_image": bikiniSerumDetail,
     "category": "Serums",
     "skin_concern": ["Ingrown Hairs", "Irritation", "Dark Spots"],
     "key_ingredients": "Lavender, Tea Tree, Primrose, Jojoba, Antimicrobial Boost",
@@ -225,8 +269,8 @@
     "name": "Bikini Bliss Pubic Hair & Skin Oil",
     "description": "Hydrate and clear pores with this luxurious oil for the pubic area. Features earthy and invigorating notes of tea tree, lavender, and lemongrass.",
     "price": 150,
-    "thumbnail": "/images/products/bikini_bliss_pubic_hair_&_skin_oil_thumbnail.jpg",
-    "detail_image": "/images/products/bikini_bliss_pubic_hair_&_skin_oil_detailed.jpg",
+    "thumbnail": bikiniOilThumb,
+    "detail_image": bikiniOilDetail,
     "category": "Oils",
     "skin_concern": ["Hydration", "Irritation"],
     "key_ingredients": "Lavender, Tea Tree, Jojoba, Primrose, Antimicrobial Boost",
@@ -238,8 +282,8 @@
     "name": "Birthday Sex Luxury Body Oil",
     "description": "A luxurious body oil with rich jasmine and sweet saffron. Formulated with niacinamide, peptides, argan oil, and a hyaluronic acid boost.",
     "price": 200,
-    "thumbnail": "/images/products/birthday_sex_luxury_body_oil_thumbnail.jpg",
-    "detail_image": "/images/products/birthday_sex_luxury_body_oil_detailed.jpg",
+    "thumbnail": birthdaySexOilThumb,
+    "detail_image": birthdaySexOilDetail,
     "category": "Oils",
     "skin_concern": ["Hydration", "Glow", "Firming"],
     "key_ingredients": "Niacinamide, Peptides, Saffron, Argan Oil, Hyaluronic Acid Boost",
@@ -251,8 +295,8 @@
     "name": "Golden Glaze Luxury Body Oil",
     "description": "A shimmering body oil infused with Vitamin C, vanilla bean, ceramides, and argan oil for a radiant glow.",
     "price": 200,
-    "thumbnail": "/images/products/golden_glaze_luxury_body_oil_thumbnail.jpg",
-    "detail_image": "/images/products/golden_glaze_luxury_body_oil_detailed.jpg",
+    "thumbnail": goldenGlazeOilThumb,
+    "detail_image": goldenGlazeOilDetail,
     "category": "Oils",
     "skin_concern": ["Glow", "Hydration", "Dark Spots"],
     "key_ingredients": "Vitamin C, Vanilla Bean, Ceramides, Argan Oil, Hyaluronic Acid Boost",
@@ -264,12 +308,14 @@
     "name": "Vanilla Baby Luxury Body Oil",
     "description": "A luxurious body oil with bakuchiol, Vitamin B3, and vanilla for a soft, antioxidant-rich glow.",
     "price": 200,
-    "thumbnail": "/images/products/vanilla_baby_luxury_body_oil_thumbnail.jpg",
-    "detail_image": "/images/products/vanilla_baby_luxury_body_oil_detailed.jpg",
+    "thumbnail": vanillaBabyOilThumb,
+    "detail_image": vanillaBabyOilDetail,
     "category": "Oils",
     "skin_concern": ["Hydration", "Glow"],
     "key_ingredients": "Bakuchiol, Vitamin B3, Vanilla, Niacinamide, Antioxidant Boost",
     "how_to_use": "Apply to the body for a soft, hydrated feel and a warm, inviting vanilla scent.",
     "bestseller": false
   }
-]
+];
+
+export default products;

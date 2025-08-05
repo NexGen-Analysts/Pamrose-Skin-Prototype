@@ -1,7 +1,8 @@
 import { createContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import productsData from '../data/products.json'; // Importing from JSON
+// Corrected: Import the default export from products.js
+import productsData from '../data/products.js'; 
 
 export const ShopContext = createContext(null);
 
@@ -19,7 +20,7 @@ const ShopContextProvider = (props) => {
     const [user, setUser] = useState(null);
     const [cartItems, setCartItems] = useState({});
 
-    // Load products from JSON and user from localStorage on initial render
+    // Load products from the imported module and user from localStorage
     useEffect(() => {
         setProducts(productsData);
         const storedUser = localStorage.getItem('pamroseUser');
@@ -43,7 +44,6 @@ const ShopContextProvider = (props) => {
     };
 
     const register = (name, email, password) => {
-        // In a real app, you'd check if the user exists before adding
         mockUsers.push({ name, email, password });
         const userData = { email, name };
         localStorage.setItem('pamroseUser', JSON.stringify(userData));
@@ -109,7 +109,6 @@ const ShopContextProvider = (props) => {
         }
         return totalCount;
     }
-
 
     const contextValue = {
         currency,
