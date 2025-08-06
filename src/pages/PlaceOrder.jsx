@@ -63,8 +63,11 @@ const PlaceOrder = () => {
                             {paymentMethod === 'deposit' && (
                                 <div className='mt-4 pl-8 text-xs text-gray-600'>
                                     <p><b>Account Holder:</b> MISS NALEDI MAKAMA</p>
-                                    <p><b>Bank:</b> [Your Bank Name]</p>
-                                    <p><b>Account Number:</b> [Your Account Number]</p>
+                                    <p><b>Bank:</b> CAPITEC BANK LIMITED</p>
+                                    <p><b>Account Number:</b> 2208-7272-62</p>
+                                    <p><b>Proof of Payment</b> must be sent to:</p>
+                                    <p><b>SMS:</b> 078 228 5873</p>
+                                    <p><b>Email:</b> nale.matlala03@gmail.com</p>
                                     <p><b>Reference:</b> {user?.email || "Your Email Address"}</p>
                                     <p className='mt-2 font-semibold'>Please send proof of payment to Naledi via Email, SMS, or WhatsApp.</p>
                                 </div>
