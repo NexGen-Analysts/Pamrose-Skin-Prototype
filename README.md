@@ -1,5 +1,7 @@
 # Pamrose Skin - E-commerce Website Prototype
 
+[Click here to visit the website](https://nexgen-analysts.github.io/Pamrose-Skin-Prototype/#/)
+
 ## 1. Project Overview
 
 This project is a frontend prototype for **Pamrose Skin**, a Pretoria based e-commerce brand specializing in clean, ethical, and plant-based skincare. The primary goal of this application is to serve as a modern, user-friendly online platform where customers can browse products, learn about the brand, and make purchases.
