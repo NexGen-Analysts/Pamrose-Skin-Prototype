@@ -1,5 +1,7 @@
 # Pamrose Skin - E-commerce Website Prototype
 
+[Click here to visit the prototype!](https://nexgen-analysts.github.io/Pamrose-Skin-Prototype/)
+
 ## 1. Project Overview
 
 This project is a frontend prototype for **Pamrose Skin**, a Pretoria based e-commerce brand specializing in clean, ethical, and plant-based skincare. The primary goal of this application is to serve as a modern, user-friendly online platform where customers can browse products, learn about the brand, and make purchases.
@@ -44,7 +46,7 @@ The project follows a standard Vite + React structure. Key directories include:
 
 ## 6. Getting Started
 
-Follow these steps to set up and run the project locally. If you're new to web development, each step is explained in detail:
+Follow these steps to set up and run the project on your local server.
 
 1. **Install Node.js and npm:**
    - Download and install Node.js from [nodejs.org](https://nodejs.org/). This will also install npm (Node Package Manager), which is required to manage project dependencies.
@@ -78,13 +80,13 @@ Follow these steps to set up and run the project locally. If you're new to web d
    - Open your browser and go to `http://localhost:5173` to view the website.
 
 **Troubleshooting Tips:**
-- If you see errors, make sure Node.js is installed and you are in the correct project folder.
+- If you see errors, make sure Node.js is installed and you are in the correct project directory on your terminal.
 - If `npm install` fails, try deleting the `node_modules` folder and running the command again.
-- For help, search the error message online or ask your team for support.
+- For help, contact Justin.
 
 ## 7. Future Development Roadmap
 
--   **Database Integration:** Replace the static `products.json` file and mock user data with a connection to a NoSQL database like MongoDB.
+-   **Database Integration:** Replace the static `products.js` file and mock user data with a connection to a NoSQL database like MongoDB.
 -   **Backend Server:** Develop a Node.js/Express/C#.NET/Firebase backend to handle API requests, user authentication, and order processing.
 -   **Payment Gateway Integration:** Integrate a real payment provider like Paystack or Stripe.
 -   **AI/ML Integration:** Connect the platform to a Python/Looker Studio/PowerBI backend for data analysis, customer segmentation, and business intelligence to support management decision-making.
