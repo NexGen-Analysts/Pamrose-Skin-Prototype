@@ -1,6 +1,6 @@
 # Pamrose Skin - E-commerce Website Prototype
 
-[Click here to visit the website](https://nexgen-analysts.github.io/Pamrose-Skin-Prototype/#/)
+[Click here to visit the website](https://nexgen-analysts.github.io/Pamrose-Skin-Web/)
 
 ## 1. Project Overview
 
